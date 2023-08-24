@@ -39,6 +39,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .hero-content-info {
   padding: 64px;
