@@ -2,14 +2,79 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./public/sushi.png" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="/sushi.png" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Sashimi Restaurant</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="./js/script.js"></script>
+    <!-- Header Section -->
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4>Sashimi exodus</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+        <ul class="header__menu">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#food">Food</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <img src="sushi_assets/assets/search.svg" alt="search" />
+          </li>
+        </ul>
+        <ul class="header__menu-mobile">
+          <li>
+            <img src="sushi_assets/assets/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-image">
+          <img src="/sushi_assets/assets/sushi-1.png" alt="sushi" />
+          <h3>刺身</h3>
+        </div>
+
+        <div class="hero-image__overlay"></div>
+        <div class="hero-content">
+          <div class="hero-content-info">
+            <h1>Feel The Taste Of Japanese Food</h1>
+            <p>
+              Feel the taste of the most popular Japanese food from anywhere
+              anytime
+            </p>
+            <div class="hero-content__buttons">
+              <button class="hero-content__order-button">Order Now</button>
+              <button class="hero-content__play-button">
+                <img src="sushi_assets/assets/play-circle.svg" alt="play" />
+                How To Order
+              </button>
+            </div>
+          </div>
+          <div class="hero-content__testimonial">
+            <div class="hero-content__customer flex-center">
+              <h4>24<span>4k+</span></h4>
+              <p>Happy Customers</p>
+            </div>
+            <div class="hero-content__review">
+              <img src="sushi_assets/assets/user.png" alt="user" />
+              <p>Best Japanese Sushi Joint</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <script type="module" src="/js/script.js"></script>
   </body>
 </html>
