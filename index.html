@@ -77,30 +77,78 @@
     </section>
 
     <!-- About Us -->
-
     <section class="about-us" id="about-us">
       <div class="about-us__image">
-        <div class="about-us__image-sushi2">
-          <img src="sushi_assets/assets/sushi-3.png" alt="sushiimage" />
+        <div class="about-us__image-sushi3">
+          <img
+            src="sushi_assets/assets/sushi-3.png"
+            alt="sushi"
+            data-aos="fade-right"
+          />
         </div>
+
         <button class="about-us__button">
           Learn More
+
           <img src="sushi_assets/assets/arrow-up-right.svg" alt="learn more" />
         </button>
+
         <div class="about-us__image-sushi2">
-          <img src="sushi_assets/assets/sushi-2.png" alt="sushi" />
-        </div>
-        <div class="about-us__content">
-          <p class="sushi__subtitle">About Us</p>
-          <h3 class="sushi__title">
-            Our Mission is True Bring True Japanese Flavours To You
-          </h3>
-          <p class="sushi__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-            deleniti!
-          </p>
+          <img
+            src="sushi_assets/assets/sushi-2.png"
+            alt="sushi"
+            data-aos="fade-right"
+          />
         </div>
       </div>
+
+      <div class="about-us__content" data-aos="fade-left">
+        <p class="sushi__subtitle">About Us / 私たちに関しては</p>
+        <h3 class="sushi__title">
+          Our mission is to bring true Japanese flavours to you.
+        </h3>
+        <p class="sushi__description">
+          We will continue to provide the experience of Omotenashi, the Japanese
+          mindset of hospitality, with our shopping and dining for our
+          customers.
+        </p>
+      </div>
+    </section>
+
+    <!-- Popular Foods Section -->
+
+    <section class="popular-foods" id="menu">
+      <h2 class="popular-foods__title">Popular Foods</h2>
+
+      <div class="popular-foods__filters sushi__hide-scrollbar">
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="popular-foods__filter-btn">
+          <img src="/sushi_assets/assets/sushi-9.png" alt="sushi 9" />
+          Sushi
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/sushi_assets/assets/sushi-8.png" alt="sushi 9" />
+          Ramen
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/sushi_assets/assets/sushi-7.png" alt="sushi 9" />
+          Sashimi
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/sushi_assets/assets/sushi-6.png" alt="sushi 9" />
+          Draggo
+        </button>
+        <button class="popular-foods__filter-btn">Others</button>
+      </div>
+
+      <!-- Explore Foods Section Cards -->
+      <div class="popular-foods__catalogue"></div>
+
+      <button class="popular-foods__button">
+        Explore More Foods
+
+        <img src="sushi_assets/assets/arrow-right.svg" alt="arrow-right" />
+      </button>
     </section>
 
     <script type="module" src="/js/script.js"></script>
