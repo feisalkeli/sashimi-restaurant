@@ -53,6 +53,7 @@
   font-weight: 600px;
   font-family: var(--playfair-display);
   color: var(--secondary-color);
+  flex-wrap: wrap;
 }
 .hero-content-info p {
   margin: 32px 0 0 32px;
